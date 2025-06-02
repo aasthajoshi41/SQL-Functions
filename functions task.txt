@@ -1,0 +1,21 @@
+Create a scalar function to return the full name (or domain) of a customer.
+Write a function that returns the square of a number (based on ProductID and Rating).
+Create a function that returns the year from a given order date.
+Create a function that returns 'Pass' if marks ≥ 35, else 'Fail' (based on StudentID).
+Create a scalar function that calculates the final price after applying a given discount percent to a product price.
+Create a scalar function that returns the tax amount (e.g., 18% GST) for a given product price.
+Create a scalar function to return a rating category ("High", "Medium", "Low") based on a numeric rating input.
+Create a scalar function that converts a numeric value to a formatted currency string (e.g., ₹1,000.00).
+Create a scalar function that returns the number of days between an order date and the current date
+Create a table-valued function that returns all orders where the total amount after discount exceeds a given threshold.
+Create a table-valued function that returns all products with a price greater than the average product price.
+Create a table-valued function that returns all orders with more than 2 quantities and less than 10% discount.
+Create a table-valued function that lists orders placed on a specific date (parameterized by date).
+Create a stored procedure that takes an OrderID, calculates the final price using a scalar function, and displays it.
+Create a stored procedure that uses the table-valued function to list orders above ₹500.
+Create a stored procedure that calculates the total bill amount including discount and tax for a given order.
+Create a stored procedure that lists all above-average priced products using a table-valued function.
+Create a stored procedure that shows each product and its rating category using the scalar rating function.
+Create a stored procedure that uses the currency-formatting function to display all order totals in INR format. (This one is commented out in your script.)
+Create a stored procedure that calls a table-valued function to get a daily order report.
+Create a stored procedure that shows all orders older than 30 days using the DaysSinceOrder scalar function.
